@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6 - AJAX and the President</title>
+    <meta name="Author" content="Chun-Hao Huang" />
+    <link rel="stylesheet" type="text/css" href="css/ajax_president.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Assignment 6 - AJAX and the President</h1>
+
+        <p>
+            <label for="name">Name:</label>
+            <input id='name' type="text">
+            <label for="took_office">Took Office</label>
+            <input id='took_office' type="text">
+            <!--<br/>not working-->
+            <button class="top-px" id="search" type="button">Search for Presidents</button>
+            <button class="top-px" id="clear" type="button">Clear</button>
+            <label class="right" for="result">Result: </label><output id="result"></output>
+            
+            
+        </p>
+
+        <hr/>
+        <div id='presidentTable'></div>
+        <output class="noResult" id="noResult"></output>
+    </div>
+    <script src="js/ajax_president.js"></script>
+</body>
+
+</html>

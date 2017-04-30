@@ -1,0 +1,36 @@
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+tr:nth-child(even) {
+	background: #FAFAFA;
+}
+tr:nth-child(odd) {
+	background-color: #42f4ce;
+}
+table {
+	border: 1px solid #666;
+	border-collapse: collapse;
+}
+tr, td, th {
+	border: 1px solid #666;
+    padding: 10px;
+}
+th{
+    background: #41f4e8;
+}
+td:hover {
+	background-color: #41d6f4;
+    color: aliceblue;
+}
+.top-px{
+    margin-top: 10px;
+}
+.right{
+   margin-left: 20%;
+}
+.noResult{
+    color: red;
+}
